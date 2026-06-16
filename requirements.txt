@@ -1,0 +1,39 @@
+# Core data processing
+pandas>=2.0
+numpy>=1.26,<2.0
+
+# HTTP requests for Ollama API
+requests>=2.31
+
+# Web interface
+streamlit>=1.35
+
+# Vector search
+faiss-cpu>=1.8
+
+# Embeddings / NLP
+sentence-transformers>=2.7
+transformers>=4.40
+huggingface-hub>=0.23
+tokenizers>=0.19
+safetensors>=0.4
+
+# PyTorch backend
+torch
+torchvision
+torchaudio
+
+# Scientific / ML dependencies
+scikit-learn>=1.4
+scipy>=1.11
+tqdm>=4.66
+
+# LangChain compatibility for older retrieval versions / notebooks
+langchain
+langchain-community
+langchain-huggingface
+
+# Optional development / notebooks
+jupyter
+ipykernel
+matplotlib

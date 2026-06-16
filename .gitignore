@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment / secrets
+.env
+
+# Logs
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Large/generated cache/model files
+.cache/
+models/
+faiss_index/
+*.index
+*.faiss
+
+# Large raw datasets / archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
