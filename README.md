@@ -1,4 +1,3 @@
-README.md içine şu bölümü koyun:
 
 ## Setup
 
